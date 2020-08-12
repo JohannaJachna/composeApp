@@ -357,7 +357,7 @@
                                 <rect key="frame" x="244" y="272" width="64" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-10" translatesAutoresizingMaskIntoConstraints="NO" id="KUm-Kp-x6z">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-11" translatesAutoresizingMaskIntoConstraints="NO" id="KUm-Kp-x6z">
                                 <rect key="frame" x="316" y="272" width="64" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -365,15 +365,8 @@
                                 <rect key="frame" x="34" y="272" width="64" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQo-vG-x7S">
-                                <rect key="frame" x="34" y="272" width="64" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="cryEmojiButton:" destination="8gp-IJ-BNI" eventType="touchUpInside" id="I2g-VX-8P7"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhP-jH-lEY">
-                                <rect key="frame" x="34" y="445" width="346" height="129"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhP-jH-lEY">
+                                <rect key="frame" x="34" y="408" width="346" height="312"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text"> “Sadness flies away on the wings of time.”
  – Jean de La Fontaine</string>
@@ -381,18 +374,96 @@
                                 <color key="textColor" red="0.98039215690000003" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQo-vG-x7S">
+                                <rect key="frame" x="34" y="272" width="64" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="cryEmojiButton:" destination="8gp-IJ-BNI" eventType="touchUpInside" id="I2g-VX-8P7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCv-Zy-Sdo">
+                                <rect key="frame" x="106" y="272" width="64" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="somewhatSadEmojiButton:" destination="8gp-IJ-BNI" eventType="touchUpInside" id="fzd-vR-qNF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="99V-RB-0KI">
+                                <rect key="frame" x="175" y="273" width="64" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="mehEmojiButton:" destination="8gp-IJ-BNI" eventType="touchUpInside" id="32V-KC-qYm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1q-0S-yLw">
+                                <rect key="frame" x="244" y="271" width="64" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="happyEmojiButton:" destination="8gp-IJ-BNI" eventType="touchUpInside" id="3sl-nB-VST"/>
+                                    <action selector="mehEmojiButton:" destination="8gp-IJ-BNI" eventType="touchUpInside" id="01k-db-ver"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2W-SJ-TYg">
+                                <rect key="frame" x="34" y="408" width="346" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> “Sadness flies away on the wings of time.”
+ – Jean de La Fontaine</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Gu-ZE-Af1">
+                                <rect key="frame" x="34" y="408" width="346" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> “Sadness flies away on the wings of time.”
+ – Jean de La Fontaine</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BgC-5a-kX3">
+                                <rect key="frame" x="34" y="408" width="346" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> “Sadness flies away on the wings of time.”
+ – Jean de La Fontaine</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsx-od-dCB">
+                                <rect key="frame" x="34" y="408" width="346" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> “Sadness flies away on the wings of time.”
+ – Jean de La Fontaine</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfD-Pn-MNp">
+                                <rect key="frame" x="316" y="272" width="64" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="extremelyHappyEmojiButton:" destination="8gp-IJ-BNI" eventType="touchUpInside" id="Xy5-gK-V8S"/>
+                                    <action selector="happyEmojiButton:" destination="8gp-IJ-BNI" eventType="touchUpInside" id="usS-Tb-QjW"/>
+                                    <action selector="mehEmojiButton:" destination="8gp-IJ-BNI" eventType="touchUpInside" id="x9B-Tz-LEL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.33333333329999998" green="0.35686274509999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="3dN-op-2d9"/>
                     </view>
                     <navigationItem key="navigationItem" id="hLr-bj-E5B"/>
                     <connections>
-                        <outlet property="sadQuote1" destination="mhP-jH-lEY" id="B78-Sb-3hM"/>
+                        <outlet property="extremelyHappyQuoteLabel" destination="Wsx-od-dCB" id="Jrw-UU-OfD"/>
+                        <outlet property="happyQuoteLabel" destination="BgC-5a-kX3" id="0Ch-EN-fdG"/>
+                        <outlet property="mehQuoteLabel" destination="9Gu-ZE-Af1" id="oS1-33-tgh"/>
+                        <outlet property="sadQuoteLabel" destination="mhP-jH-lEY" id="Wdd-B9-9Ks"/>
+                        <outlet property="someWhatSadQuoteLabel" destination="q2W-SJ-TYg" id="iQb-M7-aYb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AB4-Nc-h2Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1957.9710144927537" y="125.89285714285714"/>
+            <point key="canvasLocation" x="2056.521739130435" y="117.85714285714285"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -400,6 +471,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Unknown-10" width="225" height="225"/>
+        <image name="Unknown-11" width="225" height="225"/>
         <image name="Unknown-12" width="225" height="225"/>
         <image name="Unknown-9" width="225" height="225"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
